@@ -1,6 +1,6 @@
 #!/bin/sh
 
-WEBHOOK_URL="https://discord.com/api/webhooks/1218196361191882852/3g2oqLGp1Ms4tBszO24Zhn9_nj8oSV98x3fpN2w2Xw_60An2pEXq3tdnrD8UWU08HNYG"
+WEBHOOK_URL=""
 # テスト結果のメッセージ
 if [ $? -eq 0 ]; then
     MESSAGE="テストに成功しました。"
